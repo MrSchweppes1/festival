@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body{
+    font-family: "Russo One";
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/bodybg.png");
+    background-color: black;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position:relative;
+    height:35vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height:5vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(171,0,116,50%);
+    
+}
+nav div{
+    width: 30vw;
+    margin-left: 55vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#a3{
+    width: auto;
+}
+nav a{
+    color: white;
+    font-size: 2.5vh;
+    margin-right: 1.25vw;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: rgba(47,32,224,80%);
+    text-decoration: underline;   
+    font-size: 3vh;
+    transition: 0.5s;
+}
+nav form{
+    width: 13vw;
+    font-family: "Russo One";
+    transition: 0.5s;
+}
+nav button{
+    width: 100%;
+    font-family: "Russo One";
+    background-color: rgba(47,32,224,80%);
+    color: white;
+    font-size: 2.5vh;
+    border: none;
+    transition: 0.5s;
+    height: 100%;
+}
+nav form:hover {
+    width: 18vw;
+    color: rgba(171,0,116,80%);
+    transition: 0.5s;
+}
+nav form:hover button{
+    color: rgba(171,0,116,80%);
+    transition: 0.5s;
+}
+.txthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+}
+.headerTXT{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    letter-spacing: 0.2vw;
+}
+.headerTXT h1{  
+    font-size: 5vh;
+    margin: 0;
+}
+.headerTXT h2{  
+    font-size: 5vh;
+    margin: 0;
+}
+.startfest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    background-color: rgba(171,0,116,70%);
+    border-radius: 3vw;
+    color: white;
+}
+.timeblk{ 
+    margin-top: 1.5vw;
+    border-radius: 3vw;
+    border: 0.35vw white solid;
+}
+
+.timeblk h1{ 
+    padding-left: 3vw;
+    padding-right: 3vw;
+    letter-spacing: 0.5vw;
+}
+.startfest h2{
+    margin-top: 2.5vw;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+}
+input{
+    height: 3vw;
+    width: 40vw;
+    border: 0.3vw solid white;
+    background-color: rgba(171,0,116,0%);
+    border-radius: 1vw;
+    color: white;
+}
+input::placeholder {color: #FFFFFF;}
+
+.reg{
+    display: flex;   
+    align-items: center; 
+    justify-content:center ;
+    margin-top: 2vw;
+    width: 40vw;
+}
+
+.startfest button{
+    margin-top: 3vw;
+    width: 25vw;
+    font-family: "Russo One";
+    background-color: rgba(47,32,224,80%);
+    color: white;
+    font-size: 4vh;
+    border: none;
+    border-radius: 3vw;
+    height: 3vw;
+    transition: 0.5s;
+}
+.startfest button:hover{
+    width: 30vw;
+    color: rgba(171,0,116,80%);
+    transition: 0.5s;
+}
+footer{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+    background-color: rgba(47,32,224,50%);
+    color: white;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 67vw;   
+    margin-left: 5vw;
+}
+.connect h1{
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phone i{
+    margin-right: 0.5vw;
+    font-size: 1.5vw;
+}
+.phone h2{   
+    font-size: 0.7vw;
+    letter-spacing: 0.1vw;
+}
+.con{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.con i{  
+    font-size: 1.5vw;
+}
+.partner{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+.partner h1{
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+.partners{
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+}
+.partners i{
+    font-size: 2.5vw;
+}
