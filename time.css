@@ -86,73 +86,107 @@ nav form:hover button{
     display: flex;
     flex-direction: column;
     width: 70vw;
-    height: 75vw;
+    height: 90vw;
     align-items: center;
 }
-.maptxt{
-    margin-top: 2vw;
+
+.dates{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-top: 1vw;
 }
-.maptxt .txt{
-    display: flex;
-    flex-direction: column;
+
+.datetime{
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-left: 5vw;
     text-align: center;
-    letter-spacing: 0.15vw;
-    margin: 0 3vw;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
 }
-.txt h2{
-    font-size: 1.5vw;
-}
-.txt h1{
-    font-size: 1.5vw;
-}
-.maptxt img{
-    height: 20vw;
+.datetime:hover{   
+    color: rgba(21, 5, 170, 0.89); 
+    transition: 0.5s;
 }
 
-.actpic{
+.datetime:first-child{
+    margin-left: 0;
+}
+
+
+.actortime{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 60vw;
+    height: 70vw;
+    margin-top: 7vw;
+}
+.actor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    letter-spacing: 0.2vw; 
+    width: 25vw;
+}
+.actor h1{
+    margin: 0;
+}
+#actor1{
+    margin-top: -5vw;
+}
+#actor3 h1{
+    margin-top: 2vw;
+}
+#actor3 {
+    margin-top: 25vw;
+}
+#actor2 {
+    margin-top: 28vw;
+}
+.linekr{
+    width: 10vw;
+    height: 57vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.actpic .txt{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    letter-spacing: 0.15vw;
-    margin: 0 2.3vw;
+.kr{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: white;
+    border-radius: 50%;
 }
-.actpic .txt h2{
-    line-height: 3vw;
-}
-.actpic .txt h2{
-    font-size: 1.2vw;
-}
-.actpic .pict{
-    margin-top: 2vw;
-    display: flex;
-    flex-direction: row;
+.line{
+    width: 0.5vw;
+    height: 28vw;
+    background-color: #DFC2C2;
 }
 
-.хаски{
-    display: flex;
-    flex-direction: column;
-}
 
-.oxxy{
-    display: flex;
-    flex-direction: column;
-}
-.кискис{
-    display: flex;
-    flex-direction: row;
-}
-.танк{
-    display: flex;
-    flex-direction: row;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     margin-top: 10vw;
     display: flex;
