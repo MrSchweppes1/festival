@@ -13,7 +13,7 @@ body{
 }
 header{
     position:relative;
-    height:60vw;
+    height:50vw;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +67,6 @@ nav button{
 }
 nav form:hover {
     width: 18vw;
-    color: rgba(171,0,116,80%);
     transition: 0.5s;
 }
 nav form:hover button{
@@ -99,7 +98,7 @@ nav form:hover button{
 .headerTXT h3{  
     font-size: 5vh;
     margin: 0;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 .headliner{
     display: flex;
