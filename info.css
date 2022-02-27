@@ -85,9 +85,8 @@ nav form:hover button{
     color: white;
     display: flex;
     flex-direction: column;
-    width: 70vw;
-    height: 75vw;
-    align-items: center;
+    width: 80vw;
+    height: 77vw;
 }
 .maptxt{
     margin-top: 2vw;
@@ -108,27 +107,30 @@ nav form:hover button{
 .txt h1{
     font-size: 1.5vw;
 }
-.maptxt img{
-    height: 20vw;
+.maptxt #map{
+    height: 25vw;
+    border: none;
+    border-radius: 10%;
 }
 
 .actpic{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 3vw;
 }
 .actpic .txt{
     display: flex;
     flex-direction: column;
     text-align: center;
     letter-spacing: 0.15vw;
-    margin: 0 2.3vw;
+    margin: 0 3vw;
 }
 .actpic .txt h2{
     line-height: 3vw;
 }
 .actpic .txt h2{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 .actpic .pict{
     margin-top: 2vw;
