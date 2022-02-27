@@ -271,3 +271,264 @@ footer {
 .partners i {
     font-size: 2.5vw;
 }
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    header {
+        position: relative;
+        height: 10vw;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav img {
+        margin-right: 50vw;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vw;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(171, 0, 116, 50%);
+    }
+
+    nav div {
+        width: 16vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #a2 {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-size: 2vw;
+    }
+
+    #menu2 {
+        background-color: rgba(171, 0, 116, 50%);
+        display: none;
+        transition: 1s;
+        position: absolute;
+        margin-top: 20vw;
+        margin-left: 6vw;
+    }
+
+    nav a {
+        color: white;
+        font-size: 2vw;
+        margin-top: 1vw;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    nav a:hover {
+        color: rgba(47, 32, 224, 80%);
+        text-decoration: underline;
+        font-size: 2vw;
+        transition: 0.5s;
+    }
+
+    nav form {
+        width: 20vw;
+        font-family: "Russo One";
+        transition: 0.5s;
+    }
+
+    nav button {
+        width: 100%;
+        font-family: "Russo One";
+        background-color: rgba(47, 32, 224, 80%);
+        color: white;
+        font-size: 2vw;
+        border: none;
+        transition: 0.5s;
+        height: 100%;
+    }
+
+    nav form:hover {
+        width: 18vw;
+        transition: 0.5s;
+    }
+
+    nav form:hover button {
+        color: rgba(171, 0, 116, 80%);
+        transition: 0.5s;
+    }
+
+    #menu {
+        margin-left: 7vw;
+        width: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav div:hover #menu2 {
+        display: block;
+        transition: 2s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu div {
+        margin: 0;
+        margin-top: 1vw;
+        background-color: white;
+        height: 0.2vw;
+        width: 5vw;
+    }
+
+
+
+    .info {
+        margin-top: 8vw;
+        background-color: rgba(171, 0, 116, 60%);
+        border-radius: 3vw;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+    }
+    
+    .maptxt {
+        margin-top: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .maptxt .txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 0.15vw;
+        margin: 0 3vw;
+    }
+    
+    .txt h2 {
+        font-size: 3vw;
+    }
+    
+    .txt h1 {
+        font-size: 3vw;
+    }
+    
+    .maptxt #map {
+        height: 35vw;
+        width: 57vw;
+        border: none;
+        border-radius: 10%;
+    }
+    
+    .actpic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 6vw;
+    }
+    
+    .actpic .txt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 0.15vw;
+        margin: 0 3vw;
+    }
+    
+    .actpic .txt h2 {
+        line-height: 5vw;
+    }
+    
+    .actpic .txt h2 {
+        font-size: 3vw;
+    }
+    
+    .actpic .pict {
+        margin-top: 2vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+    footer {
+        margin-top: 15vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 15vw;
+        background-color: rgba(47, 32, 224, 50%);
+        color: white;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50vw;
+        margin-left: 5vw;
+    }
+
+    .connect h1 {
+        font-size: 2.1vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .phone i {
+        margin-right: 0.5vw;
+        font-size: 2.5vw;
+    }
+
+    .phone h2 {
+        font-size: 1.4vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .con {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .con i {
+        font-size: 2.5vw;
+    }
+
+    .partner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+
+    .partner h1 {
+        font-size: 2vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .partners {
+        display: flex;
+        width: 18vw;
+        justify-content: space-between;
+    }
+
+    .partners i {
+        font-size: 3.5vw;
+    }
+
+}
