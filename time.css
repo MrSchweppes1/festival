@@ -25,7 +25,8 @@ header {
     align-items: center;
 }
 
-nav img{
+nav #img img{
+    height: 6vw;
     margin-right: 70vw;
 }
 nav{
@@ -303,7 +304,8 @@ footer {
         background-repeat: no-repeat;
     }
 
-    nav img {
+    nav #img img{
+        height: 6vw;
         margin-right: 50vw;
     }
 

@@ -21,7 +21,8 @@ header {
     background-repeat: no-repeat;
 }
 
-nav img {
+nav #img img{
+    height: 6vw;
     margin-right: 70vw;
 }
 
@@ -348,7 +349,8 @@ footer {
         background-repeat: no-repeat;
     }
 
-    nav img {
+    nav #img img{
+        height: 9vw;
         margin-right: 50vw;
     }
 
