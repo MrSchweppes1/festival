@@ -118,11 +118,11 @@ nav div:hover #menu2{
     letter-spacing: 0.2vw;
 }
 .headerTXT h1{  
-    font-size: 5vh;
+    font-size: 5vw;
     margin: 0;
 }
 .headerTXT h2{  
-    font-size: 5vh;
+    font-size: 5vw;
     margin: 0;
 }
 .startfest{
@@ -185,7 +185,7 @@ input [type=date]::placeholder{
     font-family: "Russo One";
     background-color: rgba(47,32,224,80%);
     color: white;
-    font-size: 4vh;
+    font-size: 3vw;
     border: none;
     border-radius: 3vw;
     height: 3vw;
@@ -264,7 +264,7 @@ footer{
 @media screen and (min-width: 200px) and (max-width: 1200px) {
     header {
         position: relative;
-        height: 40vw;
+        height: 30vw;
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -371,10 +371,10 @@ footer{
         width: 5vw;
     }
 
-
     
 
     .startfest{
+        margin-top: 20vw;
         width: 70vw;
         height: 70vw;
         font-size: 1.9vw;
@@ -416,7 +416,7 @@ footer{
     }
     
     .startfest button{
-        font-size: 4vh;
+        font-size: 4vw;
         height: 6vw;
         transition: 0.5s;
     }
@@ -429,7 +429,7 @@ footer{
 
 
     footer {
-        margin-top: 35vw;
+        margin-top: 80%;
         display: flex;
         flex-direction: row;
         align-items: center;
