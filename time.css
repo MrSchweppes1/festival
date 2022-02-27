@@ -493,6 +493,8 @@ footer {
         height: 15vw;
         background-color: rgba(47, 32, 224, 50%);
         color: white;
+        position: absolute;
+        bottom: 0;
     }
 
     .connect {
